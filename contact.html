@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr" class="js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Mouna Dakkak | Artiste Surr&eacute;aliste</title>
+  <meta name="description" content="Contactez Mouna Dakkak pour une demande d'achat, une commande, une exposition, ou simplement écrire à l'artiste. Email, Instagram, formulaire de contact.">
+  <link rel="canonical" href="https://mounadakkak.art/contact.html">
+  <meta property="og:title" content="Contact — Mouna Dakkak | Artiste Surréaliste">
+  <meta property="og:description" content="Pour une demande d'achat, une commande sur mesure, une proposition d'exposition, ou écrire à l'artiste.">
+  <meta property="og:image" content="https://mounadakkak.art/assets/img/img-002.jpg">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preload" as="font" type="font/woff2" href="assets/fonts/cormorant-normal.woff2" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="assets/fonts/cormorant-italic.woff2" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="assets/fonts/outfit-normal.woff2" crossorigin>
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Aller au contenu principal</a>
+
+  <header class="site-header" data-scrolled="false">
+    <div class="header-inner">
+      <div class="wordmark"><a href="index.html">Mouna Dakkak</a></div>
+      <nav class="nav-desktop" aria-label="Principal">
+        <ul>
+          <li><a href="galerie.html">Galerie</a><span class="nav-sep">&middot;</span></li>
+          <li><a href="a-propos.html">&Agrave; propos</a><span class="nav-sep">&middot;</span></li>
+          <li><a href="boutique.html">Boutique</a><span class="nav-sep">&middot;</span></li>
+          <li><a href="commandes.html">Commandes</a><span class="nav-sep">&middot;</span></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-mobile" aria-label="Menu de navigation">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="nav-mobile" id="nav-mobile" aria-hidden="true">
+    <button class="nav-toggle nav-toggle--close" aria-expanded="true" aria-controls="nav-mobile" aria-label="Fermer le menu">
+      <span></span><span></span>
+    </button>
+    <a href="galerie.html">Galerie</a>
+    <a href="a-propos.html">&Agrave; propos</a>
+    <a href="boutique.html">Boutique</a>
+    <a href="commandes.html">Commandes</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <main id="main">
+    <!-- En-tête -->
+    <section class="page-header" aria-labelledby="contact-title">
+      <p class="eyebrow">Contact</p>
+      <h1 id="contact-title">Entrer en contact.</h1>
+      <p class="lede" style="max-width:60ch;">Pour une demande d&rsquo;achat, une commande sur mesure, une proposition d&rsquo;exposition, une interview, ou simplement &eacute;crire &agrave; l&rsquo;artiste — tous les canaux officiels sont ici.</p>
+    </section>
+
+    <!-- Layout 2 colonnes -->
+    <section class="section" aria-label="Canaux de contact et formulaire">
+      <div class="section-inner two-col" data-reveal>
+        <!-- Canaux directs -->
+        <div class="contact-channels">
+          <div class="contact-channel">
+            <p class="contact-channel__label">Email</p>
+            <p class="contact-channel__value"><a href="mailto:mounadakkakart@gmail.com">mounadakkakart@gmail.com</a></p>
+          </div>
+          <div class="contact-channel">
+            <p class="contact-channel__label">Instagram artiste</p>
+            <p class="contact-channel__value"><a href="https://www.instagram.com/mounadakkakart/" rel="noopener" target="_blank">@mounadakkakart</a></p>
+          </div>
+          <div class="contact-channel">
+            <p class="contact-channel__label">Instagram MoonCraft</p>
+            <p class="contact-channel__value"><a href="https://www.instagram.com/mooncraft.creation/" rel="noopener" target="_blank">@mooncraft.creation</a></p>
+          </div>
+          <div class="contact-channel">
+            <p class="contact-channel__label">Localisation</p>
+            <p class="contact-channel__value">Lyon, France</p>
+          </div>
+        </div>
+
+        <!-- Formulaire -->
+        <div id="form">
+          <h2 style="font-family:var(--font-serif);font-size:var(--fs-h3);font-weight:500;margin-bottom:var(--space-5);">Envoyer un message</h2>
+          <form class="form" aria-label="Formulaire de contact">
+            <div class="form-field">
+              <label for="contact-nom">Nom <span class="required">*</span></label>
+              <input type="text" id="contact-nom" name="nom" required autocomplete="name">
+              <span class="field-error">Ce champ est requis.</span>
+            </div>
+            <div class="form-field">
+              <label for="contact-email">Email <span class="required">*</span></label>
+              <input type="email" id="contact-email" name="email" required autocomplete="email">
+              <span class="field-error">Veuillez saisir un email valide.</span>
+            </div>
+            <div class="form-field">
+              <label for="contact-sujet">Sujet</label>
+              <select id="contact-sujet" name="sujet">
+                <option value="Achat">Achat</option>
+                <option value="Commande">Commande</option>
+                <option value="Exposition">Exposition</option>
+                <option value="Presse">Presse / Interview</option>
+                <option value="Autre">Autre</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="contact-message">Message <span class="required">*</span></label>
+              <textarea id="contact-message" name="message" required placeholder="Votre message..."></textarea>
+              <span class="field-error">Ce champ est requis.</span>
+            </div>
+            <div class="form-field">
+              <label class="checkbox-label">
+                <input type="checkbox" name="rgpd" required>
+                <span>J&rsquo;accepte que mes donn&eacute;es soient utilis&eacute;es pour traiter ma demande, conform&eacute;ment &agrave; la r&eacute;glementation RGPD. <span class="required">*</span></span>
+              </label>
+              <span class="field-error">Vous devez accepter le traitement de vos donn&eacute;es.</span>
+            </div>
+            <div class="form-actions">
+              <button type="submit" class="btn btn--primary">Envoyer le message</button>
+            </div>
+            <div class="form-confirmation" style="display:none;" role="status"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="wordmark">Mouna Dakkak</span>
+        <p>Architecte &amp; artiste surr&eacute;aliste &middot; Lyon</p>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <a href="mailto:mounadakkakart@gmail.com">mounadakkakart@gmail.com</a>
+        <a href="https://www.instagram.com/mounadakkakart/" rel="noopener" target="_blank">Instagram @mounadakkakart</a>
+        <a href="https://www.instagram.com/mooncraft.creation/" rel="noopener" target="_blank">MoonCraft @mooncraft.creation</a>
+      </div>
+      <div class="footer-nav">
+        <h4>Navigation</h4>
+        <a href="galerie.html">Galerie</a>
+        <a href="a-propos.html">&Agrave; propos</a>
+        <a href="boutique.html">Boutique</a>
+        <a href="commandes.html">Commandes</a>
+        <a href="contact.html">Contact</a>
+        <a href="#">Mentions l&eacute;gales</a>
+      </div>
+    </div>
+    <div class="footer-bottom">&copy; 2025 Mouna Dakkak. Tous droits r&eacute;serv&eacute;s.</div>
+  </footer>
+
+  <script src="assets/js/site.js"></script>
+</body>
+</html>
