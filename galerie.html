@@ -4,21 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Galerie — Mouna Dakkak | Portfolio</title>
-  <meta name="description" content="Galerie des œuvres de Mouna Dakkak — peintures sur toile, techniques mixtes, art digital, 2023–2025. 17 œuvres à découvrir.">
+  <meta name="description" content="Galerie des œuvres de Mouna Dakkak — 17 peintures et techniques mixtes, 8 créations digitales, 2023–2025. Fiches du catalogue officiel.">
   <link rel="canonical" href="https://mounadakkak.art/galerie.html">
   <meta property="og:title" content="Galerie — Mouna Dakkak | Portfolio">
-  <meta property="og:description" content="Peintures sur toile, techniques mixtes, art digital — 17 œuvres de 2023 à 2025.">
-  <meta property="og:image" content="https://mounadakkak.art/assets/img/img-002.jpg">
+  <meta property="og:description" content="Peintures, techniques mixtes, art digital — le catalogue 2023–2025.">
+  <meta property="og:image" content="https://mounadakkak.art/assets/img/plates/anxio-depressif.jpg">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="preload" as="font" type="font/woff2" href="assets/fonts/cormorant-normal.woff2" crossorigin>
-  <link rel="preload" as="font" type="font/woff2" href="assets/fonts/cormorant-italic.woff2" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="assets/fonts/bricolage-grotesque-latin-wght-normal.woff2" crossorigin>
   <link rel="preload" as="font" type="font/woff2" href="assets/fonts/outfit-normal.woff2" crossorigin>
   <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
   <a href="#main" class="skip-link">Aller au contenu principal</a>
+
+  <div class="filet-courant">
+    <div class="filet-courant__inner">
+      <span>Catalogue — peinture &middot; art digital</span>
+      <span class="folio">&OElig;uvres 2023–2025 &middot; 02 / <span lang="ar" dir="rtl">٠٢</span></span>
+    </div>
+  </div>
 
   <header class="site-header" data-scrolled="false">
     <div class="header-inner">
@@ -50,260 +56,350 @@
   </div>
 
   <main id="main">
-    <section class="page-header" aria-labelledby="galerie-title">
-      <p class="eyebrow">Portfolio &middot; 17 &oelig;uvres</p>
-      <h1 id="galerie-title">La galerie</h1>
-      <p class="lede">Peintures sur toile, techniques mixtes, art digital — 2023 &agrave; 2025. Cliquez sur une &oelig;uvre pour l&rsquo;ouvrir en grand.</p>
+    <section class="page-header" aria-labelledby="galerie-titre">
+      <p class="eyebrow">Portfolio &middot; 17 &oelig;uvres &middot; 8 cr&eacute;ations digitales</p>
+      <h1 id="galerie-titre">La galerie</h1>
+      <p class="lede">Peintures sur toile, techniques mixtes, art digital — 2023 &agrave; 2025. Chaque fiche reprend les donn&eacute;es du catalogue officiel de l&rsquo;artiste. Cliquez sur une &oelig;uvre pour entrer dans sa chambre.</p>
     </section>
 
-    <section class="section" aria-label="Filtres et &oelig;uvres">
+    <section class="section--serree" style="padding-top:0;" aria-label="Filtres et &oelig;uvres">
       <div class="section-inner">
         <div class="filter-bar" role="group" aria-label="Filtrer les &oelig;uvres">
-          <button class="filter-chip is-active" data-filter="all">Toutes</button>
-          <button class="filter-chip" data-filter="acrylique">Acrylique/toile</button>
-          <button class="filter-chip" data-filter="mixtes">Techniques mixtes</button>
-          <button class="filter-chip" data-filter="digital">Art digital</button>
-          <button class="filter-chip" data-filter="2025">2025</button>
-          <button class="filter-chip" data-filter="2024">2024</button>
-          <button class="filter-chip" data-filter="2023">2023</button>
+          <button class="filter-chip is-active" data-filter="all" aria-pressed="true">Toutes</button>
+          <button class="filter-chip" data-filter="acrylique" aria-pressed="false">Acrylique</button>
+          <button class="filter-chip" data-filter="mixtes" aria-pressed="false">Techniques mixtes</button>
+          <button class="filter-chip" data-filter="digital" aria-pressed="false">Art digital</button>
+          <button class="filter-chip" data-filter="2025" aria-pressed="false">2025</button>
+          <button class="filter-chip" data-filter="2024" aria-pressed="false">2024</button>
+          <button class="filter-chip" data-filter="2023" aria-pressed="false">2023</button>
         </div>
 
-        <div class="masonry">
+        <div class="grille-oeuvres grille-oeuvres--4">
 
-          <!-- img-002: Anxio-Dépressif -->
-          <figure class="artwork-card" data-category="acrylique 2023">
-            <a class="artwork-card__link" href="galerie.html?oeuvre=img-002" data-lightbox data-full="assets/img/img-002.jpg" data-title="Anxio-D&eacute;pressif" data-meta="2023 · Acrylique sur toile · 80×80 cm">
-              <img src="assets/img/img-002.jpg" alt="Anxio-D&eacute;pressif, 2023, acrylique sur toile 80&times;80&nbsp;cm" width="800" height="800" loading="lazy" decoding="async">
+          <figure class="oeuvre-card" data-category="acrylique 2023" style="--accent:#e3a403;">
+            <a class="oeuvre-card__link" href="?oeuvre=anxio-depressif" data-lightbox data-slug="anxio-depressif" data-anim="lattes" data-full="assets/img/plates/anxio-depressif.jpg" data-titre="Anxio-D&eacute;pressif" data-meta="2023 · Acrylique sur toile · Dimension : 80 × 80 cm" data-accent="#e3a403" data-archive="assets/img/img-002.jpg" aria-label="Ouvrir &laquo;&nbsp;Anxio-D&eacute;pressif&nbsp;&raquo; en grand">
+              <img src="assets/img/plates/anxio-depressif.jpg" alt="Anxio-D&eacute;pressif, 2023, acrylique sur toile 80&times;80&nbsp;cm" width="1402" height="1420" loading="lazy" decoding="async">
             </a>
-            <figcaption>
-              <h3 class="artwork-card__title">Anxio-D&eacute;pressif</h3>
-              <p class="artwork-card__meta">2023 &middot; Acrylique sur toile &middot; 80&times;80&nbsp;cm</p>
+            <figcaption class="fiche">
+              <div class="fiche__titre">Anxio-D&eacute;pressif</div>
+              <div class="fiche__meta">2023 &middot; Acrylique sur toile &middot; Dimension&nbsp;:&nbsp;80&nbsp;&times;&nbsp;80&nbsp;cm</div>
             </figcaption>
           </figure>
 
-          <!-- img-004: Ménopause -->
-          <figure class="artwork-card" data-category="acrylique 2024">
-            <a class="artwork-card__link" href="galerie.html?oeuvre=img-004" data-lightbox data-full="assets/img/img-004.jpg" data-title="M&eacute;nopause" data-meta="2024 · Acrylique sur toile · 80×80 cm">
-              <img src="assets/img/img-004.jpg" alt="M&eacute;nopause, 2024, acrylique sur toile 80&times;80&nbsp;cm" width="800" height="800" loading="lazy" decoding="async">
+          <figure class="oeuvre-card" data-category="acrylique 2024" style="--accent:#ccab02;">
+            <a class="oeuvre-card__link" href="?oeuvre=menopause" data-lightbox data-slug="menopause" data-anim="echos" data-full="assets/img/plates/menopause.jpg" data-titre="M&eacute;nopause" data-meta="2024 · Acrylique sur toile · Dimension : 80 × 80 cm" data-accent="#ccab02" data-archive="assets/img/img-004.jpg" aria-label="Ouvrir &laquo;&nbsp;M&eacute;nopause&nbsp;&raquo; en grand">
+              <img src="assets/img/plates/menopause.jpg" alt="M&eacute;nopause, 2024, acrylique sur toile 80&times;80&nbsp;cm" width="1432" height="1414" loading="lazy" decoding="async">
             </a>
-            <figcaption>
-              <h3 class="artwork-card__title">M&eacute;nopause</h3>
-              <p class="artwork-card__meta">2024 &middot; Acrylique sur toile &middot; 80&times;80&nbsp;cm</p>
+            <figcaption class="fiche">
+              <div class="fiche__titre">M&eacute;nopause</div>
+              <div class="fiche__meta">2024 &middot; Acrylique sur toile &middot; Dimension&nbsp;:&nbsp;80&nbsp;&times;&nbsp;80&nbsp;cm</div>
             </figcaption>
           </figure>
 
-          <!-- img-006: Apple Juice -->
-          <figure class="artwork-card" data-category="acrylique 2024">
-            <a class="artwork-card__link" href="galerie.html?oeuvre=img-006" data-lightbox data-full="assets/img/img-006.jpg" data-title="Apple Juice — Jus de Pomme" data-meta="2024 · Acrylique sur toile · 80×60 cm">
-              <img src="assets/img/img-006.jpg" alt="Apple Juice — Jus de Pomme, 2024, acrylique sur toile 80&times;60&nbsp;cm" width="800" height="600" loading="lazy" decoding="async">
+          <figure class="oeuvre-card" data-category="acrylique 2024" style="--accent:#d19125;">
+            <a class="oeuvre-card__link" href="?oeuvre=apple-juice" data-lightbox data-slug="apple-juice" data-anim="entaille" data-full="assets/img/plates/apple-juice.jpg" data-titre="Apple Juice — Jus de Pomme" data-meta="2024 · Acrylique sur toile · Dimension : 80 × 60 cm" data-accent="#d19125" data-archive="assets/img/img-006.jpg" aria-label="Ouvrir &laquo;&nbsp;Apple Juice&nbsp;&raquo; en grand">
+              <img src="assets/img/plates/apple-juice.jpg" alt="Apple Juice — Jus de Pomme, 2024, acrylique sur toile 80&times;60&nbsp;cm" width="1080" height="1417" loading="lazy" decoding="async">
             </a>
-            <figcaption>
-              <h3 class="artwork-card__title">Apple Juice — Jus de Pomme</h3>
-              <p class="artwork-card__meta">2024 &middot; Acrylique sur toile &middot; 80&times;60&nbsp;cm</p>
+            <figcaption class="fiche">
+              <div class="fiche__titre">Apple Juice — Jus de Pomme</div>
+              <div class="fiche__meta">2024 &middot; Acrylique sur toile &middot; Dimension&nbsp;:&nbsp;80&nbsp;&times;&nbsp;60&nbsp;cm</div>
             </figcaption>
           </figure>
 
-          <!-- img-007: The Link -->
-          <figure class="artwork-card" data-category="mixtes 2024">
-            <a class="artwork-card__link" href="galerie.html?oeuvre=img-007" data-lightbox data-full="assets/img/img-007.jpg" data-title="The Link — Le Lien (2/6)" data-meta="2024 · Techniques mixtes sur papier coloré · 70×50 cm">
-              <img src="assets/img/img-007.jpg" alt="The Link — Le Lien (2/6), 2024, techniques mixtes sur papier color&eacute; 70&times;50&nbsp;cm" width="700" height="500" loading="lazy" decoding="async">
+          <figure class="oeuvre-card" data-category="mixtes 2024" style="--accent:#f08a10;">
+            <a class="oeuvre-card__link" href="?oeuvre=the-link" data-lightbox data-slug="the-link" data-anim="couvercle" data-full="assets/img/plates/the-link.jpg" data-titre="The Link — Le Lien (2/6)" data-meta="2024 · Techniques mixtes sur papier coloré · Dimension : 70 × 50 cm" data-accent="#f08a10" data-archive="assets/img/img-007.jpg" aria-label="Ouvrir &laquo;&nbsp;The Link&nbsp;&raquo; en grand">
+              <img src="assets/img/plates/the-link.jpg" alt="The Link — Le Lien, partie 2/6 du polyptique, 2024, techniques mixtes sur papier color&eacute; 70&times;50&nbsp;cm" width="1038" height="1448" loading="lazy" decoding="async">
             </a>
-            <figcaption>
-              <h3 class="artwork-card__title">The Link — Le Lien (2/6)</h3>
-              <p class="artwork-card__meta">2024 &middot; Techniques mixtes sur papier color&eacute; &middot; 70&times;50&nbsp;cm</p>
+            <figcaption class="fiche">
+              <div class="fiche__titre">The Link — Le Lien (2/6)</div>
+              <div class="fiche__meta">2024 &middot; Techniques mixtes sur papier color&eacute; &middot; Dimension&nbsp;:&nbsp;70&nbsp;&times;&nbsp;50&nbsp;cm</div>
             </figcaption>
           </figure>
 
-          <!-- img-008: Le Clown -->
-          <figure class="artwork-card" data-category="acrylique 2023">
-            <a class="artwork-card__link" href="galerie.html?oeuvre=img-008" data-lightbox data-full="assets/img/img-008.jpg" data-title="Le Clown" data-meta="2023 · Acrylique sur toile · 50×50 cm">
-              <img src="assets/img/img-008.jpg" alt="Le Clown, 2023, acrylique sur toile 50&times;50&nbsp;cm" width="500" height="500" loading="lazy" decoding="async">
+          <figure class="oeuvre-card" data-category="acrylique 2025" style="--accent:#d9331f;">
+            <a class="oeuvre-card__link" href="?oeuvre=visages-fond-rouge" data-lightbox data-slug="visages-fond-rouge" data-anim="maree" data-full="assets/img/plates/visages-fond-rouge.jpg" data-titre="Visages surréalistes sur fond rouge" data-meta="2025 · Acrylique sur toile · Dimension : sur demande" data-accent="#d9331f" data-archive="assets/img/ig-01.jpg" aria-label="Ouvrir &laquo;&nbsp;Visages surr&eacute;alistes sur fond rouge&nbsp;&raquo; en grand">
+              <img src="assets/img/plates/visages-fond-rouge.jpg" alt="Visages surr&eacute;alistes sur fond rouge, 2025, acrylique sur toile" width="296" height="640" loading="lazy" decoding="async">
             </a>
-            <figcaption>
-              <h3 class="artwork-card__title">Le Clown</h3>
-              <p class="artwork-card__meta">2023 &middot; Acrylique sur toile &middot; 50&times;50&nbsp;cm</p>
+            <figcaption class="fiche">
+              <div class="fiche__titre">Visages surr&eacute;alistes sur fond rouge</div>
+              <div class="fiche__meta">2025 &middot; Acrylique sur toile &middot; <span style="white-space:nowrap">Dimension&nbsp;:&nbsp;sur demande</span></div>
             </figcaption>
           </figure>
 
-          <!-- img-009: Le Complexe -->
-          <figure class="artwork-card" data-category="acrylique 2023">
-            <a class="artwork-card__link" href="galerie.html?oeuvre=img-009" data-lightbox data-full="assets/img/img-009.jpg" data-title="Le Complexe" data-meta="2023 · Acrylique sur toile · 50×50 cm">
-              <img src="assets/img/img-009.jpg" alt="Le Complexe, 2023, acrylique sur toile 50&times;50&nbsp;cm" width="500" height="500" loading="lazy" decoding="async">
+          <figure class="oeuvre-card" data-category="acrylique 2025" style="--accent:#56bdc8;">
+            <a class="oeuvre-card__link" href="?oeuvre=piece-en-damier" data-lightbox data-slug="piece-en-damier" data-anim="renversement" data-full="assets/img/ig-04.jpg" data-titre="Pièce en damier aux globes oculaires" data-meta="2025 · Acrylique sur toile · Dimension : sur demande" data-accent="#56bdc8" aria-label="Ouvrir &laquo;&nbsp;Pi&egrave;ce en damier aux globes oculaires&nbsp;&raquo; en grand">
+              <img src="assets/img/ig-04.jpg" alt="Pi&egrave;ce en damier aux globes oculaires, 2025, acrylique sur toile" width="640" height="423" loading="lazy" decoding="async">
             </a>
-            <figcaption>
-              <h3 class="artwork-card__title">Le Complexe</h3>
-              <p class="artwork-card__meta">2023 &middot; Acrylique sur toile &middot; 50&times;50&nbsp;cm</p>
+            <figcaption class="fiche">
+              <div class="fiche__titre">Pi&egrave;ce en damier aux globes oculaires</div>
+              <div class="fiche__meta">2025 &middot; Acrylique sur toile &middot; <span style="white-space:nowrap">Dimension&nbsp;:&nbsp;sur demande</span></div>
             </figcaption>
           </figure>
 
-          <!-- img-010: Prémonition -->
-          <figure class="artwork-card" data-category="acrylique 2023">
-            <a class="artwork-card__link" href="galerie.html?oeuvre=img-010-premonition" data-lightbox data-full="assets/img/img-010.jpg" data-title="Pr&eacute;monition" data-meta="2023 · Acrylique sur toile · 50×50 cm">
-              <img src="assets/img/img-010.jpg" alt="Pr&eacute;monition, 2023, acrylique sur toile 50&times;50&nbsp;cm" width="500" height="500" loading="lazy" decoding="async">
-              <span class="artwork-card__overlay-caption">Pr&eacute;monition</span>
+          <figure class="oeuvre-card" data-category="acrylique 2025" style="--accent:#52bdec;">
+            <a class="oeuvre-card__link" href="?oeuvre=yeux-suspendus" data-lightbox data-slug="yeux-suspendus" data-anim="suspension" data-full="assets/img/ig-12.jpg" data-titre="Visage aux yeux suspendus" data-meta="2025 · Acrylique sur toile · Dimension : sur demande" data-accent="#52bdec" aria-label="Ouvrir &laquo;&nbsp;Visage aux yeux suspendus&nbsp;&raquo; en grand">
+              <img src="assets/img/ig-12.jpg" alt="Visage aux yeux suspendus, 2025, acrylique sur toile" width="640" height="1136" loading="lazy" decoding="async">
             </a>
-            <figcaption>
-              <h3 class="artwork-card__title">Pr&eacute;monition</h3>
-              <p class="artwork-card__meta">2023 &middot; Acrylique sur toile &middot; 50&times;50&nbsp;cm</p>
+            <figcaption class="fiche">
+              <div class="fiche__titre">Visage aux yeux suspendus</div>
+              <div class="fiche__meta">2025 &middot; Acrylique sur toile &middot; <span style="white-space:nowrap">Dimension&nbsp;:&nbsp;sur demande</span></div>
             </figcaption>
           </figure>
 
-          <!-- img-010: Esprit Ouvre Toi -->
-          <figure class="artwork-card" data-category="acrylique 2023">
-            <a class="artwork-card__link" href="galerie.html?oeuvre=img-010-esprit" data-lightbox data-full="assets/img/img-010.jpg" data-title="Esprit Ouvre Toi" data-meta="2023 · Acrylique sur toile · 50×50 cm">
-              <img src="assets/img/img-010.jpg" alt="Esprit Ouvre Toi, 2023, acrylique sur toile 50&times;50&nbsp;cm" width="500" height="500" loading="lazy" decoding="async">
-              <span class="artwork-card__overlay-caption">Esprit Ouvre Toi</span>
+          <figure class="oeuvre-card" data-category="acrylique 2025" style="--accent:#eecc08;">
+            <a class="oeuvre-card__link" href="?oeuvre=visage-branche" data-lightbox data-slug="visage-branche" data-anim="spirale" data-full="assets/img/ig-10.jpg" data-titre="Visage branché — yeux ballons" data-meta="2025 · Acrylique sur toile · Dimension : sur demande" data-accent="#eecc08" aria-label="Ouvrir &laquo;&nbsp;Visage branch&eacute;&nbsp;&raquo; en grand">
+              <img src="assets/img/ig-10.jpg" alt="Visage branch&eacute;, yeux ballons, 2025, acrylique sur toile" width="640" height="513" loading="lazy" decoding="async">
             </a>
-            <figcaption>
-              <h3 class="artwork-card__title">Esprit Ouvre Toi</h3>
-              <p class="artwork-card__meta">2023 &middot; Acrylique sur toile &middot; 50&times;50&nbsp;cm</p>
+            <figcaption class="fiche">
+              <div class="fiche__titre">Visage branch&eacute; — yeux ballons</div>
+              <div class="fiche__meta">2025 &middot; Acrylique sur toile &middot; <span style="white-space:nowrap">Dimension&nbsp;:&nbsp;sur demande</span></div>
             </figcaption>
           </figure>
 
-          <!-- img-011: Nystagmus -->
-          <figure class="artwork-card" data-category="acrylique 2024">
-            <a class="artwork-card__link" href="galerie.html?oeuvre=img-011" data-lightbox data-full="assets/img/img-011.jpg" data-title="Nystagmus" data-meta="2024 · Acrylique sur toile · 200×100 cm">
-              <img src="assets/img/img-011.jpg" alt="Nystagmus, 2024, acrylique sur toile 200&times;100&nbsp;cm" width="1600" height="800" loading="lazy" decoding="async">
+          <figure class="oeuvre-card" data-category="acrylique 2025" style="--accent:#ef4348;">
+            <a class="oeuvre-card__link" href="?oeuvre=oeil-bleu" data-lightbox data-slug="oeil-bleu" data-anim="iris" data-full="assets/img/ig-07.jpg" data-titre="Œil bleu — détail" data-meta="2025 · Acrylique sur toile (détail)" data-accent="#ef4348" aria-label="Ouvrir &laquo;&nbsp;&OElig;il bleu&nbsp;&raquo; en grand">
+              <img src="assets/img/ig-07.jpg" alt="&OElig;il bleu, d&eacute;tail g&eacute;om&eacute;trique, 2025, acrylique sur toile" width="640" height="661" loading="lazy" decoding="async">
             </a>
-            <figcaption>
-              <h3 class="artwork-card__title">Nystagmus</h3>
-              <p class="artwork-card__meta">2024 &middot; Acrylique sur toile &middot; 200&times;100&nbsp;cm</p>
+            <figcaption class="fiche">
+              <div class="fiche__titre">&OElig;il bleu — d&eacute;tail</div>
+              <div class="fiche__meta">2025 &middot; Acrylique sur toile (d&eacute;tail)</div>
             </figcaption>
           </figure>
 
-          <!-- img-012: Sans Titres -->
-          <figure class="artwork-card" data-category="mixtes 2023">
-            <a class="artwork-card__link" href="galerie.html?oeuvre=img-012" data-lightbox data-full="assets/img/img-012.jpg" data-title="Sans Titres (s&eacute;rie)" data-meta="2023 · Techniques mixtes">
-              <img src="assets/img/img-012.jpg" alt="Sans Titres (s&eacute;rie), 2023, techniques mixtes" width="800" height="600" loading="lazy" decoding="async">
+          <figure class="oeuvre-card" data-category="acrylique 2023" style="--accent:#e04b1f;">
+            <a class="oeuvre-card__link" href="?oeuvre=le-clown" data-lightbox data-slug="le-clown" data-anim="balancier" data-full="assets/img/plates/le-clown.jpg" data-titre="Le Clown" data-meta="2023 · Acrylique sur toile · Dimension : 50 × 50 cm" data-accent="#e04b1f" data-archive="assets/img/img-009.jpg" aria-label="Ouvrir &laquo;&nbsp;Le Clown&nbsp;&raquo; en grand">
+              <img src="assets/img/plates/le-clown.jpg" alt="Le Clown, 2023, acrylique sur toile 50&times;50&nbsp;cm" width="1130" height="1116" loading="lazy" decoding="async">
             </a>
-            <figcaption>
-              <h3 class="artwork-card__title">Sans Titres (s&eacute;rie)</h3>
-              <p class="artwork-card__meta">2023 &middot; Techniques mixtes</p>
+            <figcaption class="fiche">
+              <div class="fiche__titre">Le Clown</div>
+              <div class="fiche__meta">2023 &middot; Acrylique sur toile &middot; Dimension&nbsp;:&nbsp;50&nbsp;&times;&nbsp;50&nbsp;cm</div>
             </figcaption>
           </figure>
 
-          <!-- img-013: Gallerie Digitale -->
-          <figure class="artwork-card" data-category="digital 2024">
-            <a class="artwork-card__link" href="galerie.html?oeuvre=img-013" data-lightbox data-full="assets/img/img-013.jpg" data-title="Gallerie Digitale" data-meta="2024 · Art digital">
-              <img src="assets/img/img-013.jpg" alt="Gallerie Digitale, 2024, art digital" width="800" height="800" loading="lazy" decoding="async">
+          <figure class="oeuvre-card" data-category="acrylique 2023" style="--accent:#bd3501;">
+            <a class="oeuvre-card__link" href="?oeuvre=le-complexe" data-lightbox data-slug="le-complexe" data-anim="tissage" data-full="assets/img/plates/le-complexe.jpg" data-titre="Le Complexe" data-meta="2023 · Acrylique sur toile · Dimension : 50 × 50 cm" data-accent="#bd3501" data-archive="assets/img/img-009.jpg" aria-label="Ouvrir &laquo;&nbsp;Le Complexe&nbsp;&raquo; en grand">
+              <img src="assets/img/plates/le-complexe.jpg" alt="Le Complexe, 2023, acrylique sur toile 50&times;50&nbsp;cm" width="1120" height="1113" loading="lazy" decoding="async">
             </a>
-            <figcaption>
-              <h3 class="artwork-card__title">Gallerie Digitale</h3>
-              <p class="artwork-card__meta">2024 &middot; Art digital</p>
+            <figcaption class="fiche">
+              <div class="fiche__titre">Le Complexe</div>
+              <div class="fiche__meta">2023 &middot; Acrylique sur toile &middot; Dimension&nbsp;:&nbsp;50&nbsp;&times;&nbsp;50&nbsp;cm</div>
             </figcaption>
           </figure>
 
-          <!-- ig-01: Visages surréalistes sur fond rouge -->
-          <figure class="artwork-card" data-category="acrylique 2025">
-            <a class="artwork-card__link" href="galerie.html?oeuvre=ig-01" data-lightbox data-full="assets/img/ig-01.jpg" data-title="Visages surr&eacute;alistes sur fond rouge" data-meta="2025 · Acrylique sur toile">
-              <img src="assets/img/ig-01.jpg" alt="Visages surr&eacute;alistes sur fond rouge, 2025, acrylique sur toile" width="800" height="800" loading="lazy" decoding="async">
+          <figure class="oeuvre-card" data-category="acrylique 2023" style="--accent:#e6ad0c;">
+            <a class="oeuvre-card__link" href="?oeuvre=premonition" data-lightbox data-slug="premonition" data-anim="aquarelle" data-full="assets/img/plates/premonition.jpg" data-titre="Prémonition" data-meta="2023 · Acrylique sur toile · Dimension : 50 × 50 cm" data-accent="#e6ad0c" data-archive="assets/img/img-010.jpg" aria-label="Ouvrir &laquo;&nbsp;Pr&eacute;monition&nbsp;&raquo; en grand">
+              <img src="assets/img/plates/premonition.jpg" alt="Pr&eacute;monition, 2023, acrylique sur toile 50&times;50&nbsp;cm" width="1128" height="1113" loading="lazy" decoding="async">
             </a>
-            <figcaption>
-              <h3 class="artwork-card__title">Visages surr&eacute;alistes sur fond rouge</h3>
-              <p class="artwork-card__meta">2025 &middot; Acrylique sur toile</p>
+            <figcaption class="fiche">
+              <div class="fiche__titre">Pr&eacute;monition</div>
+              <div class="fiche__meta">2023 &middot; Acrylique sur toile &middot; Dimension&nbsp;:&nbsp;50&nbsp;&times;&nbsp;50&nbsp;cm</div>
             </figcaption>
           </figure>
 
-          <!-- ig-04: Pièce en damier -->
-          <figure class="artwork-card" data-category="acrylique 2025">
-            <a class="artwork-card__link" href="galerie.html?oeuvre=ig-04" data-lightbox data-full="assets/img/ig-04.jpg" data-title="Pi&egrave;ce en damier aux globes oculaires" data-meta="2025 · Acrylique sur toile">
-              <img src="assets/img/ig-04.jpg" alt="Pi&egrave;ce en damier aux globes oculaires, 2025, acrylique sur toile" width="800" height="800" loading="lazy" decoding="async">
+          <figure class="oeuvre-card" data-category="acrylique 2023" style="--accent:#e8b422;">
+            <a class="oeuvre-card__link" href="?oeuvre=esprit-ouvre-toi" data-lightbox data-slug="esprit-ouvre-toi" data-anim="onde" data-full="assets/img/plates/esprit-ouvre-toi.jpg" data-titre="Esprit, Ouvre Toi" data-meta="2023 · Acrylique sur toile · Dimension : 50 × 50 cm" data-accent="#e8b422" data-archive="assets/img/img-010.jpg" aria-label="Ouvrir &laquo;&nbsp;Esprit, Ouvre Toi&nbsp;&raquo; en grand">
+              <img src="assets/img/plates/esprit-ouvre-toi.jpg" alt="Esprit, Ouvre Toi, 2023, acrylique sur toile 50&times;50&nbsp;cm" width="1130" height="1115" loading="lazy" decoding="async">
             </a>
-            <figcaption>
-              <h3 class="artwork-card__title">Pi&egrave;ce en damier aux globes oculaires</h3>
-              <p class="artwork-card__meta">2025 &middot; Acrylique sur toile</p>
+            <figcaption class="fiche">
+              <div class="fiche__titre">Esprit, Ouvre Toi</div>
+              <div class="fiche__meta">2023 &middot; Acrylique sur toile &middot; Dimension&nbsp;:&nbsp;50&nbsp;&times;&nbsp;50&nbsp;cm</div>
             </figcaption>
           </figure>
 
-          <!-- ig-06 -->
-          <figure class="artwork-card" data-category="acrylique 2025">
-            <a class="artwork-card__link" href="galerie.html?oeuvre=ig-06" data-lightbox data-full="assets/img/ig-06.jpg" data-title="Sans titre" data-meta="2025 · Acrylique sur toile">
-              <img src="assets/img/ig-06.jpg" alt="&OElig;uvre surr&eacute;aliste, 2025, acrylique sur toile" width="800" height="800" loading="lazy" decoding="async">
+          <figure class="oeuvre-card" data-category="acrylique 2023" style="--accent:#d9c29b;">
+            <a class="oeuvre-card__link" href="?oeuvre=sans-titre-60x40" data-lightbox data-slug="sans-titre-60x40" data-anim="flamme" data-full="assets/img/plates/sans-titre-60x40.jpg" data-titre="Sans Titre" data-meta="2023 · Acrylique sur toile · Dimension : 60 × 40 cm" data-accent="#d9c29b" data-archive="assets/img/img-011.jpg" aria-label="Ouvrir &laquo;&nbsp;Sans Titre&nbsp;&raquo; en grand">
+              <img src="assets/img/plates/sans-titre-60x40.jpg" alt="Sans Titre, 2023, acrylique sur toile 60&times;40&nbsp;cm" width="900" height="1142" loading="lazy" decoding="async">
             </a>
-            <figcaption>
-              <h3 class="artwork-card__title">Sans titre</h3>
-              <p class="artwork-card__meta">2025 &middot; Acrylique sur toile</p>
+            <figcaption class="fiche">
+              <div class="fiche__titre">Sans Titre</div>
+              <div class="fiche__meta">2023 &middot; Acrylique sur toile &middot; Dimension&nbsp;:&nbsp;60&nbsp;&times;&nbsp;40&nbsp;cm</div>
             </figcaption>
           </figure>
 
-          <!-- ig-07: Œil bleu -->
-          <figure class="artwork-card" data-category="acrylique 2025">
-            <a class="artwork-card__link" href="galerie.html?oeuvre=ig-07" data-lightbox data-full="assets/img/ig-07.jpg" data-title="&OElig;il bleu — d&eacute;tail g&eacute;om&eacute;trique" data-meta="2025 · Acrylique sur toile">
-              <img src="assets/img/ig-07.jpg" alt="&OElig;il bleu, d&eacute;tail g&eacute;om&eacute;trique, 2025, acrylique sur toile" width="800" height="800" loading="lazy" decoding="async">
+          <figure class="oeuvre-card" data-category="acrylique 2024" style="--accent:#d2a408;">
+            <a class="oeuvre-card__link" href="?oeuvre=serie-sans-titres-1" data-lightbox data-slug="serie-sans-titres-1" data-anim="accrochage" data-full="assets/img/plates/serie-sans-titres-a.jpg" data-titre="Sans Titres (série) — I" data-meta="2024 · Acrylique sur toile · Dimension : 30 × 30 cm" data-accent="#d2a408" data-archive="assets/img/img-012.jpg" aria-label="Ouvrir la premi&egrave;re toile de la s&eacute;rie &laquo;&nbsp;Sans Titres&nbsp;&raquo; en grand">
+              <img src="assets/img/plates/serie-sans-titres-a.jpg" alt="Sans Titres, s&eacute;rie, premi&egrave;re toile, 2024, acrylique sur toile 30&times;30&nbsp;cm" width="460" height="488" loading="lazy" decoding="async">
             </a>
-            <figcaption>
-              <h3 class="artwork-card__title">&OElig;il bleu — d&eacute;tail g&eacute;om&eacute;trique</h3>
-              <p class="artwork-card__meta">2025 &middot; Acrylique sur toile</p>
+            <figcaption class="fiche">
+              <div class="fiche__titre">Sans Titres (s&eacute;rie) — I</div>
+              <div class="fiche__meta">2024 &middot; Acrylique sur toile &middot; Dimension&nbsp;:&nbsp;30&nbsp;&times;&nbsp;30&nbsp;cm</div>
             </figcaption>
           </figure>
 
-          <!-- ig-10: Visage branché -->
-          <figure class="artwork-card" data-category="acrylique 2025">
-            <a class="artwork-card__link" href="galerie.html?oeuvre=ig-10" data-lightbox data-full="assets/img/ig-10.jpg" data-title="Visage branch&eacute; — yeux ballons" data-meta="2025 · Acrylique sur toile">
-              <img src="assets/img/ig-10.jpg" alt="Visage branch&eacute;, yeux ballons, 2025, acrylique sur toile" width="800" height="800" loading="lazy" decoding="async">
+          <figure class="oeuvre-card" data-category="acrylique 2024" style="--accent:#f09273;">
+            <a class="oeuvre-card__link" href="?oeuvre=serie-sans-titres-2" data-lightbox data-slug="serie-sans-titres-2" data-anim="accrochage" data-full="assets/img/plates/serie-sans-titres-b.jpg" data-titre="Sans Titres (série) — II" data-meta="2024 · Acrylique sur toile · Dimension : 30 × 30 cm" data-accent="#f09273" data-archive="assets/img/img-012.jpg" aria-label="Ouvrir la deuxi&egrave;me toile de la s&eacute;rie &laquo;&nbsp;Sans Titres&nbsp;&raquo; en grand">
+              <img src="assets/img/plates/serie-sans-titres-b.jpg" alt="Sans Titres, s&eacute;rie, deuxi&egrave;me toile, 2024, acrylique sur toile 30&times;30&nbsp;cm" width="477" height="491" loading="lazy" decoding="async">
             </a>
-            <figcaption>
-              <h3 class="artwork-card__title">Visage branch&eacute; — yeux ballons</h3>
-              <p class="artwork-card__meta">2025 &middot; Acrylique sur toile</p>
+            <figcaption class="fiche">
+              <div class="fiche__titre">Sans Titres (s&eacute;rie) — II</div>
+              <div class="fiche__meta">2024 &middot; Acrylique sur toile &middot; Dimension&nbsp;:&nbsp;30&nbsp;&times;&nbsp;30&nbsp;cm</div>
             </figcaption>
           </figure>
 
-          <!-- ig-12: Visage aux yeux suspendus -->
-          <figure class="artwork-card" data-category="acrylique 2025">
-            <a class="artwork-card__link" href="galerie.html?oeuvre=ig-12" data-lightbox data-full="assets/img/ig-12.jpg" data-title="Visage aux yeux suspendus" data-meta="2025 · Acrylique sur toile">
-              <img src="assets/img/ig-12.jpg" alt="Visage aux yeux suspendus, 2025, acrylique sur toile" width="800" height="800" loading="lazy" decoding="async">
+          <figure class="oeuvre-card" data-category="acrylique 2024" style="--accent:#f3d857;">
+            <a class="oeuvre-card__link" href="?oeuvre=serie-sans-titres-3" data-lightbox data-slug="serie-sans-titres-3" data-anim="accrochage" data-full="assets/img/plates/serie-sans-titres-c.jpg" data-titre="Sans Titres (série) — III" data-meta="2024 · Acrylique sur toile · Dimension : 30 × 30 cm" data-accent="#f3d857" data-archive="assets/img/img-012.jpg" aria-label="Ouvrir la troisi&egrave;me toile de la s&eacute;rie &laquo;&nbsp;Sans Titres&nbsp;&raquo; en grand">
+              <img src="assets/img/plates/serie-sans-titres-c.jpg" alt="Sans Titres, s&eacute;rie, troisi&egrave;me toile, 2024, acrylique sur toile 30&times;30&nbsp;cm" width="472" height="488" loading="lazy" decoding="async">
             </a>
-            <figcaption>
-              <h3 class="artwork-card__title">Visage aux yeux suspendus</h3>
-              <p class="artwork-card__meta">2025 &middot; Acrylique sur toile</p>
+            <figcaption class="fiche">
+              <div class="fiche__titre">Sans Titres (s&eacute;rie) — III</div>
+              <div class="fiche__meta">2024 &middot; Acrylique sur toile &middot; Dimension&nbsp;:&nbsp;30&nbsp;&times;&nbsp;30&nbsp;cm</div>
             </figcaption>
           </figure>
+
+          <figure class="oeuvre-card" data-category="digital 2024" style="--accent:#aac7c5;">
+            <a class="oeuvre-card__link" href="?oeuvre=digitale-01" data-lightbox data-slug="digitale-01" data-anim="glitch" data-full="assets/img/plates/digital-01.jpg" data-titre="Série digitale — 01" data-meta="2024 · Art digital" data-accent="#aac7c5" data-archive="assets/img/img-013.jpg" aria-label="Ouvrir la cr&eacute;ation digitale 01 en grand">
+              <img src="assets/img/plates/digital-01.jpg" alt="Cr&eacute;ation digitale 01 — visage au fond glitch, 2024" width="720" height="702" loading="lazy" decoding="async">
+            </a>
+            <figcaption class="fiche">
+              <div class="fiche__titre">S&eacute;rie digitale — 01</div>
+              <div class="fiche__meta">2024 &middot; Art digital</div>
+            </figcaption>
+          </figure>
+
+          <figure class="oeuvre-card" data-category="digital 2024" style="--accent:#b8d7e0;">
+            <a class="oeuvre-card__link" href="?oeuvre=digitale-02" data-lightbox data-slug="digitale-02" data-anim="nuages" data-full="assets/img/plates/digital-02.jpg" data-titre="Série digitale — 02" data-meta="2024 · Art digital" data-accent="#b8d7e0" data-archive="assets/img/img-013.jpg" aria-label="Ouvrir la cr&eacute;ation digitale 02 en grand">
+              <img src="assets/img/plates/digital-02.jpg" alt="Cr&eacute;ation digitale 02 — double soleil aux yeux, 2024" width="733" height="702" loading="lazy" decoding="async">
+            </a>
+            <figcaption class="fiche">
+              <div class="fiche__titre">S&eacute;rie digitale — 02</div>
+              <div class="fiche__meta">2024 &middot; Art digital</div>
+            </figcaption>
+          </figure>
+
+          <figure class="oeuvre-card" data-category="digital 2024" style="--accent:#dccfe1;">
+            <a class="oeuvre-card__link" href="?oeuvre=digitale-03" data-lightbox data-slug="digitale-03" data-anim="orbite" data-full="assets/img/plates/digital-03.jpg" data-titre="Série digitale — 03" data-meta="2024 · Art digital" data-accent="#dccfe1" data-archive="assets/img/img-013.jpg" aria-label="Ouvrir la cr&eacute;ation digitale 03 en grand">
+              <img src="assets/img/plates/digital-03.jpg" alt="Cr&eacute;ation digitale 03 — visage mi-r&eacute;el mi-dessin&eacute;, yeux satellites, 2024" width="732" height="702" loading="lazy" decoding="async">
+            </a>
+            <figcaption class="fiche">
+              <div class="fiche__titre">S&eacute;rie digitale — 03</div>
+              <div class="fiche__meta">2024 &middot; Art digital</div>
+            </figcaption>
+          </figure>
+
+          <figure class="oeuvre-card" data-category="digital 2024" style="--accent:#80aed0;">
+            <a class="oeuvre-card__link" href="?oeuvre=digitale-04" data-lightbox data-slug="digitale-04" data-anim="stores" data-full="assets/img/plates/digital-04.jpg" data-titre="Série digitale — 04" data-meta="2024 · Art digital" data-accent="#80aed0" data-archive="assets/img/img-013.jpg" aria-label="Ouvrir la cr&eacute;ation digitale 04 en grand">
+              <img src="assets/img/plates/digital-04.jpg" alt="Cr&eacute;ation digitale 04 — masque d&rsquo;yeux sur fond ray&eacute;, 2024" width="741" height="702" loading="lazy" decoding="async">
+            </a>
+            <figcaption class="fiche">
+              <div class="fiche__titre">S&eacute;rie digitale — 04</div>
+              <div class="fiche__meta">2024 &middot; Art digital</div>
+            </figcaption>
+          </figure>
+
+          <figure class="oeuvre-card" data-category="digital 2024" style="--accent:#efe1c4;">
+            <a class="oeuvre-card__link" href="?oeuvre=digitale-05" data-lightbox data-slug="digitale-05" data-anim="loupe" data-full="assets/img/plates/digital-05.jpg" data-titre="Série digitale — 05" data-meta="2024 · Art digital" data-accent="#efe1c4" data-archive="assets/img/img-013.jpg" aria-label="Ouvrir la cr&eacute;ation digitale 05 en grand">
+              <img src="assets/img/plates/digital-05.jpg" alt="Cr&eacute;ation digitale 05 — visage aux grands yeux m&eacute;caniques, 2024" width="720" height="709" loading="lazy" decoding="async">
+            </a>
+            <figcaption class="fiche">
+              <div class="fiche__titre">S&eacute;rie digitale — 05</div>
+              <div class="fiche__meta">2024 &middot; Art digital</div>
+            </figcaption>
+          </figure>
+
+          <figure class="oeuvre-card" data-category="digital 2024" style="--accent:#7ec5d7;">
+            <a class="oeuvre-card__link" href="?oeuvre=digitale-06" data-lightbox data-slug="digitale-06" data-anim="ballon" data-full="assets/img/plates/digital-06.jpg" data-titre="Série digitale — 06" data-meta="2024 · Art digital" data-accent="#7ec5d7" data-archive="assets/img/img-013.jpg" aria-label="Ouvrir la cr&eacute;ation digitale 06 en grand">
+              <img src="assets/img/plates/digital-06.jpg" alt="Cr&eacute;ation digitale 06 — ballons EGO dans le ciel, 2024" width="733" height="709" loading="lazy" decoding="async">
+            </a>
+            <figcaption class="fiche">
+              <div class="fiche__titre">S&eacute;rie digitale — 06</div>
+              <div class="fiche__meta">2024 &middot; Art digital</div>
+            </figcaption>
+          </figure>
+
+          <figure class="oeuvre-card" data-category="digital 2024" style="--accent:#a0bdbb;">
+            <a class="oeuvre-card__link" href="?oeuvre=digitale-07" data-lightbox data-slug="digitale-07" data-anim="defile" data-full="assets/img/plates/digital-07.jpg" data-titre="Série digitale — 07" data-meta="2024 · Art digital" data-accent="#a0bdbb" data-archive="assets/img/img-013.jpg" aria-label="Ouvrir la cr&eacute;ation digitale 07 en grand">
+              <img src="assets/img/plates/digital-07.jpg" alt="Cr&eacute;ation digitale 07 — chevelure tiss&eacute;e de mots, 2024" width="732" height="708" loading="lazy" decoding="async">
+            </a>
+            <figcaption class="fiche">
+              <div class="fiche__titre">S&eacute;rie digitale — 07</div>
+              <div class="fiche__meta">2024 &middot; Art digital</div>
+            </figcaption>
+          </figure>
+
+          <figure class="oeuvre-card" data-category="digital 2024" style="--accent:#ecc88a;">
+            <a class="oeuvre-card__link" href="?oeuvre=digitale-08" data-lightbox data-slug="digitale-08" data-anim="chaines" data-full="assets/img/plates/digital-08.jpg" data-titre="Série digitale — 08" data-meta="2024 · Art digital" data-accent="#ecc88a" data-archive="assets/img/img-013.jpg" aria-label="Ouvrir la cr&eacute;ation digitale 08 en grand">
+              <img src="assets/img/plates/digital-08.jpg" alt="Cr&eacute;ation digitale 08 — cha&icirc;nes &laquo;&nbsp;Je vais bien ne t&rsquo;en fais pas&nbsp;&raquo;, 2024" width="741" height="710" loading="lazy" decoding="async">
+            </a>
+            <figcaption class="fiche">
+              <div class="fiche__titre">S&eacute;rie digitale — 08</div>
+              <div class="fiche__meta">2024 &middot; Art digital</div>
+            </figcaption>
+          </figure>
+
         </div>
       </div>
     </section>
 
-    <!-- Bloc toutes uniques -->
-    <section class="section section-centered text-center" aria-labelledby="unique-title" data-reveal>
-      <h3 id="unique-title" style="font-family:var(--font-serif);font-style:italic;">Chaque &oelig;uvre est unique. Les prix sont communiqu&eacute;s sur demande.</h3>
-      <p class="mt-5"><a href="contact.html#form" class="btn btn--primary">Demander un prix</a></p>
+    <!-- Toutes uniques -->
+    <section class="section text-center" aria-labelledby="unique-titre" data-reveal>
+      <div class="section-mesure">
+        <p class="voix" id="unique-titre">Chaque &oelig;uvre est unique. Les prix sont communiqu&eacute;s sur demande.</p>
+        <p class="mt-5"><a href="contact.html#form" class="btn btn--primary">Demander un prix</a></p>
+      </div>
     </section>
   </main>
 
-  <!-- Lightbox -->
+  <!-- Lightbox : la chambre de l'œuvre -->
   <div class="lightbox" role="dialog" aria-modal="true" aria-label="Visionneuse d&rsquo;&oelig;uvre" aria-hidden="true">
-    <button class="lightbox__close" aria-label="Fermer">&times;</button>
+    <button class="lightbox__close" aria-label="Fermer la visionneuse">
+      <svg class="oeil" width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+        <g class="paupiere">
+          <path d="M2 16 C 8 7, 24 7, 30 16 C 24 25, 8 25, 2 16 Z" stroke="currentColor" stroke-width="1.8"/>
+          <circle cx="16" cy="16" r="4.5" fill="currentColor"/>
+        </g>
+        <line x1="2" y1="16" x2="30" y2="16" stroke="currentColor" stroke-width="0" />
+      </svg>
+    </button>
     <button class="lightbox__prev" aria-label="&OElig;uvre pr&eacute;c&eacute;dente">&lsaquo;</button>
-    <img class="lightbox__media" src="assets/img/img-002.jpg" alt="&OElig;uvre — vue agrandie">
+    <div class="lightbox__scene">
+      <img class="lightbox__media" src="assets/img/plates/anxio-depressif.jpg" alt="">
+    </div>
     <button class="lightbox__next" aria-label="&OElig;uvre suivante">&rsaquo;</button>
     <div class="lightbox__caption">
-      <div class="lightbox__caption-title"></div>
-      <div class="lightbox__caption-meta"></div>
+      <div class="fiche__titre"></div>
+      <div class="fiche__meta"></div>
+      <div class="lightbox__dispo"><span class="pastille" aria-hidden="true"></span> Disponible &middot; <a href="contact.html#form">Demander le prix &rarr;</a></div>
+      <a class="lightbox__archive" href="#" target="_blank" rel="noopener">Page du catalogue</a>
     </div>
+    <div class="lightbox__damier" role="presentation"></div>
   </div>
 
   <footer class="site-footer">
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <span class="wordmark">Mouna Dakkak</span>
-        <p>Architecte &amp; artiste surr&eacute;aliste &middot; Lyon</p>
+    <div class="footer-inner">
+      <div class="colophon-titre">Colophon — chaque couleur de ce site est cit&eacute;e d&rsquo;une &oelig;uvre</div>
+      <div class="colophon-nuancier">
+        <span><i style="background:#d9331f"></i>Rouge — &laquo;&nbsp;Visages surr&eacute;alistes sur fond rouge&nbsp;&raquo;, 2025</span>
+        <span><i style="background:#e9b512"></i>Safran — &laquo;&nbsp;Anxio-D&eacute;pressif&nbsp;&raquo;, 2023</span>
+        <span><i style="background:#6fc4e0"></i>C&eacute;rul&eacute; — &laquo;&nbsp;Visage aux yeux suspendus&nbsp;&raquo;, 2025</span>
+        <span><i style="background:#9fd8cc"></i>Menthe — sol damier de &laquo;&nbsp;Pi&egrave;ce en damier&nbsp;&raquo;, 2025</span>
+        <span><i style="background:#0f6a86"></i>P&eacute;trole — fiches du catalogue 2025</span>
+        <span><i style="background:#f1ece2"></i>Pl&acirc;tre — m&eacute;dina, MoonCraft 2025</span>
       </div>
-      <div class="footer-contact">
-        <h4>Contact</h4>
-        <a href="mailto:mounadakkakart@gmail.com">mounadakkakart@gmail.com</a>
-        <a href="https://www.instagram.com/mounadakkakart/" rel="noopener" target="_blank">Instagram @mounadakkakart</a>
-        <a href="https://www.instagram.com/mooncraft.creation/" rel="noopener" target="_blank">MoonCraft @mooncraft.creation</a>
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="wordmark">Mouna Dakkak</span>
+          <p>Architecte &amp; artiste surr&eacute;aliste &middot; Lyon</p>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <a href="mailto:mounadakkakart@gmail.com">mounadakkakart@gmail.com</a>
+          <a href="https://www.instagram.com/mounadakkakart/" rel="noopener" target="_blank">Instagram @mounadakkakart</a>
+          <a href="https://www.instagram.com/mooncraft.creation/" rel="noopener" target="_blank">MoonCraft @mooncraft.creation</a>
+        </div>
+        <div class="footer-nav">
+          <h4>Navigation</h4>
+          <a href="galerie.html">Galerie</a>
+          <a href="a-propos.html">&Agrave; propos</a>
+          <a href="boutique.html">Boutique</a>
+          <a href="commandes.html">Commandes</a>
+          <a href="contact.html">Contact</a>
+        </div>
       </div>
-      <div class="footer-nav">
-        <h4>Navigation</h4>
-        <a href="galerie.html">Galerie</a>
-        <a href="a-propos.html">&Agrave; propos</a>
-        <a href="boutique.html">Boutique</a>
-        <a href="commandes.html">Commandes</a>
-        <a href="contact.html">Contact</a>
-        <a href="#">Mentions l&eacute;gales</a>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Mouna Dakkak. Tous droits r&eacute;serv&eacute;s &middot; &Eacute;dit&eacute; &agrave; Lyon</span>
+        <span class="signature-ar" lang="ar" dir="rtl">منى دكاك</span>
       </div>
     </div>
-    <div class="footer-bottom">&copy; 2025 Mouna Dakkak. Tous droits r&eacute;serv&eacute;s.</div>
   </footer>
 
   <script src="assets/js/site.js"></script>
